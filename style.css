@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;padding: 0;margin: 0;font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 74%;
+    margin: 20px auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7px 0;
+    background-color: hsla(0, 0%, 47%, 0.467);
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+.active{
+    color: red;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14.5px;
+    
+}
